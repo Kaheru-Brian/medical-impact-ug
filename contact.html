@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Medical Impact Uganda</title>
+</head>
+<body>
+    
+   <!-- Header -->
+    <section class="sub-headere">
+        <nav>
+            <a href="index.html"><img src="images/LogoMakr-25olhh.png" alt="logo" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!-- ----------Contact us------------>
+     <section class="location">
+         
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510563.3484366101!2d30.65471024364629!3d1.309597586800486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1764f4a9738ba279%3A0x5582bfe07c0857ba!2sKikuube!5e0!3m2!1sen!2sug!4v1722028599354!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+     </section>
+
+     <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" ></i> 
+                    <span>
+                        <h5>XYX Road, Kyaruheka </h5>
+                        <p>Kihooko tc, kikuube district</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" ></i> 
+                    <span>
+                        <h5>+256770437160</h5> </h5>
+                        <p>Mon - Sun, 8:00am - 7Pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o" ></i> 
+                    <span>
+                        <h5>medicalimpact@outlook.com</h5> </h5>
+                        <p>Email Us</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Your Subject" required>
+                    <textarea rows="8"  placeholder="Your Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+
+     </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4> Our Mission </h4>
+        <p>We aim to provide accessible and quality primary healthcare to underserved <br> rural populations in Uganda through innovative solutions.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+           <p>&copy;2024 Medical Impact</p>
+        </div>
+    </section>
+
+
+  <!-- Javascript for toggle nav bar -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+                    navLinks.style.right = "0";
+                }
+
+        function hideMenu() {
+                    navLinks.style.right = "-200px";
+                }
+    </script>
+
+</body>
+</html>

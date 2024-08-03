@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Medica Impact Uganda</title>
+</head>
+<body>
+    
+   <!-- Header -->
+    <section class="sub-headere">
+        <nav>
+            <a href="index.html"><img src="images/LogoMakr-25olhh.png" alt="logo" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blogs</h1>
+    </section>
+    <!-- ----------blog content------------>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/solutions.png">
+                <h2>Latest Blogs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime asperiores aperiam quidem enim? Delectus autem corporis molestias. Voluptates labore modi consectetur quasi! Libero dolorum nulla sit et amet. Quia! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet veritatis ut quos atque porro, consequuntur provident ipsam facilis sunt laudantium quod, sed qui est repellendus neque pariatur nesciunt ab iste.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia, molestiae libero delectus nihil, accusantium saepe rem illum impedit ab sint nisi voluptatibus minus tenetur unde praesentium necessitatibus voluptatum ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aspernatur delectus quis cumque nisi est, neque pariatur sint dignissimos nobis! Ad dolor neque iure nisi voluptates nobis tenetur autem nam!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia, molestiae libero delectus nihil, accusantium saepe rem illum impedit ab sint nisi voluptatibus minus tenetur unde praesentium necessitatibus voluptatum ex.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia, molestiae libero delectus nihil, accusantium saepe rem illum impedit ab sint nisi voluptatibus minus tenetur unde praesentium necessitatibus voluptatum ex. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam veritatis dolores, praesentium sed facilis itaque? Expedita facere sunt, qui doloribus quia exercitationem repellat deserunt quisquam aut possimus totam libero! Eum?</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>BLog Categories</h3>
+                <div>
+                    <span>Tele-Health</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Health Habits</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>Health IT news</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Health Living</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Latest</span>
+                    <span>50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4> Our Mission </h4>
+        <p>We aim to provide accessible and quality primary healthcare to underserved <br> rural populations in Uganda through innovative solutions.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+           <p>&copy;2024 Medical Impact</p>
+        </div>
+    </section>
+
+
+  <!-- Javascript for toggle nav bar -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+                    navLinks.style.right = "0";
+                }
+
+        function hideMenu() {
+                    navLinks.style.right = "-200px";
+                }
+    </script>
+
+</body>
+</html>

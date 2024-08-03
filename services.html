@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Medica Impact Uganda</title>
+</head>
+<body>
+    <!-- Header -->
+    <section class="sub-headerr">
+        <nav>
+            <a href="index.html"><img src="images/LogoMakr-25olhh.png" alt="logo" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    </section>
+<!-- services -->
+<section class="services">
+    <h1>OUR SERVICES</h1>
+    <br>
+    <h2>Tech-Enabled Solutions for Rural Healthcare</h2>
+    <p>At Medical Impact Uganda, our mission is to use simple mobile technologies to bring affordable, high quality healthcare to every village in Africa. We deploy telehealth-enabled containerized clinics within villages that otherwise have no clinic within a 25-kilometer radius. Our work ensures that healthcare entrepreneurs and their SMEs who are serving peri-urban and rural communities have access to qualified healthcare professionals as well as critical equipment in order to provide advanced medical care..</p>
+
+    <!-- <div class="row">
+        <div class="service-col">
+            <h3>Telehealth Services</h3>
+            <p>Our telehealth system connects rural patients with doctors in urban areas, enabling remote medical consultations and improving access to specialist care.</p>
+        </div>
+        <div class="service-col">
+            <h3>Medical Equipment Provision:</h3>
+            <p>We ensure that our clinics are equipped with state-of-the-art medical equipment to deliver high-quality healthcare services.</p>
+        </div>
+        <div class="service-col">
+            <h3>Community Health Programs</h3>
+            <p>We implement health education and outreach programs to promote preventive care and healthy living in rural communities.</p>
+        </div>
+    </div> -->
+ </section>
+
+ <!-- Facilities -->
+ <section class="facilities">
+    <h1>What We Do</h1>
+    <p>We construct medical clinics in rural areas within a 20km radius, equipped with WHO-recommended medical equipment to provide essential healthcare services.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/telehealth service.jpg" >
+            <h3>Tele-Health Services</h3>
+            <p>Our telehealth system connects rural patients with urban medical professionals, facilitating remote consultations and enhancing access to specialized care.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/comunity clinic.webp" >
+            <h3>Community clinics</h3>
+            <p>We establish and equip fully functional clinics in rural communities lacking healthcare facilities. These clinics are designed to provide essential medical services and improve overall health outcomes.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Medical-Equipments.jpg" >
+            <h3>Medical Equipments</h3>
+            <p>For existing clinics, we offer crucial medical equipment on a rent-to-own basis, enabling them to deliver high-quality medical care without the upfront cost</p>
+        </div>
+    </div>
+
+</section>
+
+   
+   
+<!-- footer -->
+    <section class="footer">
+        <h4>Our Mission</h4>
+        <p>We aim to provide accessible and quality primary healthcare to underserved <br> rural populations in Uganda through innovative solutions.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+           <p>&copy;2024 Medical Impact</p>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- Javascript for toggle nav bar -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+                    navLinks.style.right = "0";
+                }
+
+        function hideMenu() {
+                    navLinks.style.right = "-200px";
+                }
+    </script>
+
+</body>
+</html>
